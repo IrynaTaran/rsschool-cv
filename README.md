@@ -1,2 +1,2 @@
 # rsschool-cv
-New link to my [CV](https://IrynaTaran.github.io/rsschool-cv/)
+Link To My [CV](https://IrynaTaran.github.io/rsschool-cv/)
