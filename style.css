@@ -2,11 +2,17 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: url(./assets/img/cv-background-blue.jpg);
     background-size:cover;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
 }
 
 .nav-list {
@@ -14,7 +20,13 @@ body {
     justify-content: center;
     align-items:center;
     list-style: none;
-  }
+    background-color: white;
+    font-size: large;
+    font-weight:bold;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
 
 .nav-link {
     padding: 0 20px;
@@ -28,4 +40,12 @@ body {
   .imgsize {
       width: 150px;
       height: 200px;
+  }
+
+  .text-blocs {
+      width: 500px;
+  }
+
+  .section-title {
+      text-transform: capitalize;
   }
