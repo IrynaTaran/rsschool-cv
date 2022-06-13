@@ -1,6 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./assets/img/cv-background-blue.jpg);
+    background-size:cover;
 }
 
 .container {
@@ -22,4 +23,9 @@ body {
 
   html {
       scroll-behavior: smooth;
+  }
+
+  .imgsize {
+      width: 150px;
+      height: 200px;
   }
