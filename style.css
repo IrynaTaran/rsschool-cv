@@ -2,3 +2,24 @@ body {
     font-family: 'Roboto', sans-serif;;
     font-weight: 100;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    list-style: none;
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+  html {
+      scroll-behavior: smooth;
+  }
