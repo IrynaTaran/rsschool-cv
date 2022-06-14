@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+    </head>
+    <body>
+        <h3>Let's play Hangman game</h3>
+        <p>Try to guess the word! He-he-he!!!</p>
+        <p>Just reload the page to start. Good luck!</p>
+        <script>
+            var words = [
+                "hemisphere",
+                "donkey",
+                "treasure",
+                "wardrobe",
+                "parachute",
+                "movie",
+                "button",
+                "picture"
+            ]
+            var word = words[Math.floor(Math.random() * words.length)];
+            var answerArray = [];
+            for (var i = 0; i < word.length; i++) {
+                answerArray[i] = "_";
+            }
+            var remainingLetters = word.length;
+            var guesses = 20;
+            while (remainingLetters > 0 && guesses > 0) {
+                alert(answerArray.join(" "));
+                var guess = prompt("Enter a letter or click Cancel to exit");
+                if (guess === null) {
+                    break;
+                } else if (guess.length !==1) {
+                    alert("Please, enter a single letter");
+                } else {
+                    guess = guess.toLowerCase();
+                    guesses --;
+                    for (var j = 0; j < word.length; j++) {
+                        if (word[j] === guess && answerArray[j] === "_") {
+                            answerArray[j] = guess;
+                            remainingLetters--;
+                        }
+                    }
+                }
+            }
+            alert(answerArray.join(" "));
+            if (guesses > 0) {
+            alert("Great! The word was: " + word + ".");
+            } else {
+                alert("You loose, try again! The word was: " + word + ".");
+            }
+        </script>
+    </body>
+</html>
