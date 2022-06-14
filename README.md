@@ -1,2 +1,2 @@
 # rsschool-cv
-Learning how to work with GitHub
+Link To My [CV](https://IrynaTaran.github.io/rsschool-cv/)
