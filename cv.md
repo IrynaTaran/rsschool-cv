@@ -1,6 +1,6 @@
 # Iryna Taran 
 **Contacts**
-* telegram: +4901527174134
+* Telegram: +4901527174134
 * Discord: Ira Taran
 * GitHub: IrynaTaran
 
