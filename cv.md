@@ -10,6 +10,8 @@
 
 **Skills**
 * Java Sccript – beginner
+* HTML - beginner
+* CSS - beginner
 * Figma
 
 **Code example**
