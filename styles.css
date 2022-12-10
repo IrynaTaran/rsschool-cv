@@ -1,3 +1,10 @@
+.body {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 @font-face {
     font-family: 'OpenSans';
     src: url(fonts/OpenSans-Bold.ttf) format('truetype')
@@ -8,9 +15,8 @@
     height: 100%;
     width: 50%;
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 0;
-    overflow-x: hidden;
     padding-top: 20px;
   }
   
@@ -106,3 +112,34 @@
     text-align: left;
     margin-left: 25px;
 }
+
+footer {
+    background: #b2c7de;
+    position: fixed;
+    bottom: 0;
+    width: 76%;
+    height: 50px;
+    margin-left: 185px;
+    display: flex;
+  }
+
+  .github-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .year {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    margin-left: 900px;
+  }
+
+  .rsschool-icon {
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
