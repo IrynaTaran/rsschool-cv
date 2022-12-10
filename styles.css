@@ -1,0 +1,145 @@
+.body {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/OpenSans-Bold.ttf) format('truetype')
+         url(fonts/OpenSans-Light.ttf) format('truetype');
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    width: 40%;
+    left: 100px;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #6d92b7;
+    color: #fcfdfd;
+    width: 40%;
+    left: 712px;
+  }
+
+  .profile {
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+    display: block;
+    margin-left: 200px;
+    margin-right: auto;
+  }
+
+  .name {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #2a1e19;
+    position: relative;
+    left: 200px;
+  }
+
+  .surname {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: #b2c7de;
+    position: relative;
+    top: -20px;
+    left: 200px;
+  }
+
+  .title-left {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+    letter-spacing: 0.1cm;
+  }
+
+  .about {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    text-align:justify;
+    margin-left: 200px;
+  }
+
+  .contacts {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 100px;
+  }
+
+  .title-right {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    letter-spacing: 0.1cm;
+  }
+
+  .skills {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 25px;
+  }
+
+.education {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.languages {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 25px;
+}
+
+footer {
+    background: #b2c7de;
+    position: fixed;
+    bottom: 0;
+    width: 76%;
+    height: 50px;
+    margin-left: 185px;
+    display: flex;
+  }
+
+  .github-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .year {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: bold;
+    margin-left: 900px;
+  }
+
+  .rsschool-icon {
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+  }
