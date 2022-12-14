@@ -1,6 +1,6 @@
 # Iryna Taran 
 **Contacts**
-* telegram: +4901527174134
+* Telegram: +4901527174134
 * Discord: Ira Taran
 * GitHub: IrynaTaran
 
@@ -10,6 +10,8 @@
 
 **Skills**
 * Java Sccript – beginner
+* HTML - beginner
+* CSS - beginner
 * Figma
 
 **Code example**
@@ -33,7 +35,7 @@
 * English - fluent. 
    + I've been working as an english teacher for kids for one year
    + I've been translating texts (eng-ukr) for 2 years
-   + Now live abroad, in english-speaking surrounding
+   + Currently live abroad, in english-speaking surrounding
 * Ukrainian - native
 * German - level B2
 * Russian - fluent

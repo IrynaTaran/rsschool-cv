@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'OpenSans', sans-serif;
+    min-height: 100vh;
+    margin: 0px 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+header {
+    background-color: #b2c7de;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+}
+
+.section {
+    width: 50%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #2a1e19;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 3s;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: #2a1e19;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #fcfdfd;
+}
+
+#profile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-photo {
+    height: 250px;
+    width: auto;
+    object-fit:contain;
+    margin-top: 10px;
+}
+
+.section-title-profile {
+    font-size: 40px;
+    font-weight: bold;
+    color: #b2c7de;
+    margin: 100px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.summary-text {
+    font-size: 18px;
+    font-weight: light;
+    color: #2a1e19;
+    text-align: justify;
+    line-height: 1.5;
+    position: relative;
+    width: 80%;
+}
+
+.section-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #b2c7de;
+    border-radius: 50%;
+}
+
+.english-list {
+    list-style: circle ;
+}
+
+.english-item {
+    margin-left: 45px;
+    line-height: 1.5;
+}
+
+.footer-container {
+    height: 50px;
+    background: #b2c7de;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fcfdfd;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  .github-link {
+    text-decoration: none;
+    line-height: 45px;
+    color: #fcfdfd;
+  }
+
+  .rss-link {
+    width: 100px;
+    height: 40px;
+    background-image: url(https://rs.school/images/rs_school_js.svg);
+    background-repeat: no-repeat;
+  }
