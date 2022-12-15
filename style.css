@@ -141,6 +141,17 @@ header {
     border-radius: 50%;
 }
 
+.hangman-text {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.hangman-link {
+    text-decoration: none;
+    color: #b2c7de;
+}
+
 .english-list {
     list-style: circle ;
 }
